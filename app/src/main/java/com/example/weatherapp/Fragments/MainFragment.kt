@@ -167,7 +167,6 @@ class MainFragment : Fragment() {
             permissionListener()
             pLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION)
         }
-        //TODO сделать отображение, что функционал урезан, если пользователь отклонил запрос
     }
 
     //Запрос серверу по городу

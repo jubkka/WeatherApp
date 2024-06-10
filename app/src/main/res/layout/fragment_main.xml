@@ -74,8 +74,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:text="20C"
+                android:textColor="@color/card_blue_tb"
                 android:textSize="60sp"
-                android:textColor="@color/cardview_dark_background"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCity" />
@@ -107,10 +107,11 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginBottom="10dp"
                 android:background="@null"
-                android:src="@drawable/ic_baseline_search_24_n"
+                android:src="@android:drawable/ic_menu_search"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/tvMaxMin"
+                app:tint="@color/card_blue_tb"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <ImageButton
@@ -119,11 +120,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="12dp"
                 android:layout_marginBottom="10dp"
-                android:background="@null"
-                android:src="@drawable/ic_baseline_cloud_sync_24_n"
+                android:background="#00FFFFFF"
+                android:src="@android:drawable/ic_menu_mylocation"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvCondition"
+                app:tint="@color/card_blue_tb"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
